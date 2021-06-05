@@ -1,0 +1,3 @@
+Dec_d("y",TPrim Int,Const_d("1"),Const_d("true"))
+Fun_d("x",Dec_d("succ",TFun(TPrim Int,TPrim Int),Fun_d("x",App_d(Ope_d("+"),Paire_d(Var_d("x"),Const_d("1"))),TPrim Int),Paire_d(Var_d("x"),App_d(Var_d("succ"),Const_d("1")))),TPrim Char)
+Fun_d("x",Dec_d("succ",TFun(TPrim Int,TPrim Int),Fun_d("y",App_d(Ope_d("+"),Paire_d(Var_d("y"),Const_d("1"))),TPrim Int),Paire_d(Var_d("x"),App_d(Var_d("succ"),Const_d("1")))),TPrim Char)  
